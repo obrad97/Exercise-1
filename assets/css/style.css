@@ -6,11 +6,6 @@
 body {
     background-color: hsl(185, 75%, 39%);
 }
-
-.container {
-    height: 100vh;
-    position: relative;
-}
 .bg-top-img{
     position: absolute;
     background-image: url('../images/bg-pattern-top.svg');
@@ -32,6 +27,11 @@ body {
     z-index: -1;
     bottom: 0px;
     right: 0px;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
 }
 
 .card {
